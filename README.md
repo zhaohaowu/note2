@@ -26,14 +26,14 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 然后去仓库选择最低版本的，不能选择server，重启按f2选择discrete graphic，重启
 
 ##### 4、安装chrome，方便登陆账号同步书签
-```
+
 https://www.google.com/chrome/
-```
+
 
 ##### 5、安装输入法，重启后生效
-```
+
 https://pinyin.sogou.com/linux/
-```
+
 
 ##### 6、gedit永久显示行号
 ```
@@ -48,14 +48,14 @@ sudo hwclock --localtime --systohc
  ```
 
 ##### 8、安装ssr
-```
-https://github.com/shadowsocksrr/electron-ssr/releases，
-```
+
+https://github.com/shadowsocksrr/electron-ssr/releases
+
 
 ##### 9、安装ros
-```
+
 http://wiki.ros.org/cn/melodic/Installation/Ubuntu
-```
+
 
 
 
