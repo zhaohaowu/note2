@@ -36,6 +36,13 @@ gedit永久显示行号
 gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
 ```
 
+双系统时间同步
+ ```
+sudo apt-get install ntpdate
+sudo ntpdate time.windows.com
+sudo hwclock --localtime --systohc
+ ```
+
 安装ssr
 ```
 https://github.com/shadowsocksrr/electron-ssr/releases，
@@ -45,3 +52,28 @@ https://github.com/shadowsocksrr/electron-ssr/releases，
 ```
 http://wiki.ros.org/cn/melodic/Installation/Ubuntu
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
