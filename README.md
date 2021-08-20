@@ -23,7 +23,7 @@ sudo update-grub
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 ```
-然后去仓库选择最低版本的，重启按f2选择discrete graphic，重启
+然后去仓库选择最低版本的，不能选择server，重启按f2选择discrete graphic，重启
 
 ##### 4、安装chrome，方便登陆账号同步书签
 ```
