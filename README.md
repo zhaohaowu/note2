@@ -30,7 +30,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 https://www.google.com/chrome/
 ```
 
-##### 5、安装输入法
+##### 5、安装输入法，重启后生效
 ```
 https://pinyin.sogou.com/linux/
 ```
