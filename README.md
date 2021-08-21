@@ -57,7 +57,26 @@ https://github.com/shadowsocksrr/electron-ssr/releases
 http://wiki.ros.org/cn/melodic/Installation/Ubuntu
 
 
+rosdep update解决方法
 
+https://blog.csdn.net/weixin_43311920/article/details/114796748
+
+##### 10、安装aruco
+
+https://sourceforge.net/projects/aruco/files/?source=navbar
+
+```
+cd aruco-3.1.2&&mkdir build&&cd build&&cmake ..&&sudo make install
+```
+
+##### 11、安装c++版opencv
+
+https://blog.csdn.net/zhaohaowu/article/details/113749936
+
+
+##### 12、安装realsense
+
+https://blog.csdn.net/zhaohaowu/article/details/119837948
 
 
 
