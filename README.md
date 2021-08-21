@@ -69,18 +69,27 @@ https://sourceforge.net/projects/aruco/files/?source=navbar
 cd aruco-3.1.2&&mkdir build&&cd build&&cmake ..&&sudo make install
 ```
 
-##### 11、安装c++版opencv
-
-https://blog.csdn.net/zhaohaowu/article/details/113749936
-
-
-##### 12、安装realsense
+##### 11、安装realsense
 
 https://blog.csdn.net/zhaohaowu/article/details/119837948
 
+##### 12、安装c++版opencv
 
+https://blog.csdn.net/zhaohaowu/article/details/113749936
 
+##### 13、安装升级pip3
 
+```
+sudo apt-get install python3-pip
+pip3 install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+##### 14、安装python版opencv
+
+```
+pip3 install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install opencv-contrib-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 
 
