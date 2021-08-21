@@ -90,9 +90,9 @@ pip3 install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip3 install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip3 install opencv-contrib-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+##### 15、安装autoware
 
-
-
+https://blog.csdn.net/zhaohaowu/article/details/119839147
 
 
 
