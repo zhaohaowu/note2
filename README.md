@@ -78,11 +78,13 @@ https://blog.csdn.net/zhaohaowu/article/details/119837948
 
 https://blog.csdn.net/zhaohaowu/article/details/113749936
 
-##### 13、安装升级pip3
+##### 13、安装升级pip3和pip
 
 ```
 sudo apt-get install python3-pip
 pip3 install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+sudo apt-get install python-pip
+pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ##### 14、安装python版opencv
@@ -94,6 +96,20 @@ pip3 install opencv-contrib-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 ##### 15、安装autoware
 
 https://blog.csdn.net/zhaohaowu/article/details/119839147
+
+##### 16、melodic代码解决bug
+
+aruco代码只需要完成9，10，11，12就可以编译
+
+问题：
+```
+  Could not find a package configuration file provided by "move_base_msgs"
+```
+解决方法
+```
+sudo apt-get install ros-melodic-navigation
+```
+
 
 
 
