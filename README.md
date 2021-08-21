@@ -35,9 +35,10 @@ https://www.google.com/chrome/
 https://pinyin.sogou.com/linux/
 
 
-##### 6、gedit永久显示行号
+##### 6、gedit永久显示行号和安装粘贴板
 ```
 gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
+sudo apt-get install parcellite
 ```
 
 ##### 7、双系统时间同步
