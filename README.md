@@ -35,7 +35,9 @@ https://www.google.com/chrome/
 https://pinyin.sogou.com/linux/
 
 
-##### 6、gedit永久显示行号和安装粘贴板
+##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板
+
+文本编辑器-首选项-编辑器-制表符宽度-4
 ```
 gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
 sudo apt-get install parcellite
