@@ -103,7 +103,7 @@ https://blog.csdn.net/zhaohaowu/article/details/119839147
 
 aruco代码只需要完成9，10，11，12就可以编译
 
-问题：
+问题
 ```
   Could not find a package configuration file provided by "move_base_msgs"
 ```
@@ -111,8 +111,15 @@ aruco代码只需要完成9，10，11，12就可以编译
 ```
 sudo apt-get install ros-melodic-navigation
 ```
-
-
+##### 17、解决carlike_robot_sim代码bug
+问题
+```
+Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
+```
+解决方法
+```
+sudo apt-get install qt4-default
+```
 
 
 
