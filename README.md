@@ -120,8 +120,14 @@ Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
 ```
 sudo apt-get install qt4-default
 ```
-
-
+问题
+```
+package 'orocos-bfl' not found
+```
+解决方法
+```
+sudo apt-get install ros-melodic-bfl
+```
 
 
 
