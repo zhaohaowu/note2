@@ -112,6 +112,9 @@ aruco代码只需要完成9，10，11，12就可以编译
 sudo apt-get install ros-melodic-navigation
 ```
 ##### 17、解决carlike_robot_sim代码bug
+
+代码：https://blog.csdn.net/qq_36754438/article/details/109125320
+
 问题
 ```
 Found unsuitable Qt version "" from NOTFOUND, this code requires Qt 4.x
