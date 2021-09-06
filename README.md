@@ -131,6 +131,15 @@ package 'orocos-bfl' not found
 ```
 sudo apt-get install ros-melodic-bfl
 ```
+##### 17、安装vscode
+
+https://code.visualstudio.com/download
+
+安装c++和中文插件
+
+vscode安装完空格显示很短解决方案
+
+ctrl + ,打开设置，搜索font family，将原内容修改为'monospace'
 
 
 
