@@ -19,11 +19,11 @@ quiet splash nomodeset
 sudo update-grub
 ```
 
-##### 3、安装显卡驱动
+##### 3、安装显卡驱动，解决外接显示屏无法使用以及屏幕亮度无法调节问题
+
 ```
-sudo add-apt-repository ppa:graphics-drivers/ppa
+https://blog.csdn.net/zhaohaowu/article/details/114284288
 ```
-然后去仓库选择最低版本的，不能选择server，重启按f2选择discrete graphic，重启
 
 ##### 4、安装chrome，方便登陆账号同步书签
 
@@ -172,9 +172,7 @@ rosrun map_server map_saver -f ~/maps/housemap/housemap
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/zhw/maps/housemap/housemap.yaml #/home/zhw这里必须用绝对路径不能用~
 ```
-##### 20、安装显卡驱动
 
-https://blog.csdn.net/zhaohaowu/article/details/114284288
 
 
 
