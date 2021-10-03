@@ -19,10 +19,11 @@ quiet splash nomodeset
 sudo update-grub
 ```
 
-##### 3、安装显卡驱动，解决外接显示屏无法使用以及屏幕亮度无法调节问题
+##### 3、安装显卡驱动，解决外接显示屏无法使用以及屏幕亮度无法调节问题，解决触摸板问题
 
 ```
 https://blog.csdn.net/zhaohaowu/article/details/114284288
+https://blog.csdn.net/zhaohaowu/article/details/114287116
 ```
 
 ##### 4、安装chrome，方便登陆账号同步书签
