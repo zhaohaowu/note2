@@ -39,7 +39,7 @@ gedit ~/.config/sogoupinyin/conf/env.ini
 将StatusAppearance设置为StatusAppearance=0
 
 
-##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板，安装录屏，截图工具
+##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板，安装录屏，截图工具，视频播放器
 
 文本编辑器-首选项-编辑器-制表符宽度-4
 ```
@@ -47,6 +47,7 @@ gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
 sudo apt install parcellite
 sudo apt install kazam
 sudo apt install deepin-screenshot
+sudo apt install vlc
 ```
 
 ##### 7、双系统时间同步
@@ -94,6 +95,7 @@ pip3 install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 sudo apt-get install python-pip
 pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+豆瓣源：-i https://pypi.douban.com/simple
 
 ##### 14、安装python版opencv
 
