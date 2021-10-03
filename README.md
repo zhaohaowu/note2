@@ -148,8 +148,30 @@ sudo passwd zhw
 ```
 ##### 19、turtlebot3仿真
 
-
-
+```
+#安装turtlebot3的ros包
+sudo apt-get install ros-melodic-turtlebot3 ros-melodic-turtlebot3-description ros-melodic-turtlebot3-gazebo ros-melodic-turtlebot3-msgs ros-melodic-turtlebot3-slam ros-melodic-turtlebot3-teleop
+#安装建图的ros包
+sudo apt-get install ros-melodic-slam-gmapping
+#安装导航的ros包
+sudo apt-get install ros-melodic-navigation
+```
+#建图
+```
+roslaunch turtlebot3_gazebo turtlebot3_house.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+```
+保存地图
+```
+mkdir -p ~/maps/housemap
+rosrun map_server map_saver -f ~/maps/housemap/housemap
+```
+导航
+```
+roslaunch turtlebot3_gazebo turtlebot3_house.launch
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/zhw/maps/housemap/housemap.yaml
+```
 
 
 
