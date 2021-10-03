@@ -141,9 +141,12 @@ vscode安装完空格显示很短解决方案
 
 ctrl + ,打开设置，搜索font family，将原内容修改为'monospace'
 
+##### 18、ubuntu修改登录密码
 
-
-
+、、、
+sudo su
+sudo passwd zhw#输入新密码
+、、、
 
 
 
