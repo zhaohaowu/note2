@@ -39,7 +39,7 @@ gedit ~/.config/sogoupinyin/conf/env.ini
 将StatusAppearance设置为StatusAppearance=0
 
 
-##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板，安装录屏，截图工具，视频播放器
+##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板，安装录屏，截图工具，视频播放器，rar
 
 文本编辑器-首选项-编辑器-制表符宽度-4
 ```
@@ -48,6 +48,8 @@ sudo apt install parcellite
 sudo apt install kazam
 sudo apt install deepin-screenshot
 sudo apt install vlc
+sudo apt-get install rar unrar
+sudo apt-get install rar rar
 ```
 
 ##### 7、双系统时间同步
@@ -178,7 +180,79 @@ rosrun map_server map_saver -f ~/maps/housemap/housemap
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/zhw/maps/housemap/housemap.yaml #/home/zhw这里必须用绝对路径不能用~
 ```
+##### 20、安装zed2，astra和kinect相机
 
+```
+cd ~/catkin_ws/src/ 
+git clone https://github.com/stereolabs/zed-ros-wrapper.git
+cd ~/catkin_ws
+catkin_make -DCMAKE_BUILD_TYPE=Release
+echo source $(pwd)/devel/setup.bash >> ~/.bashrc
+source ~/.bashrc
+roslaunch zed_wrapper zed.launch
+```
+
+```
+cd ~/catkin_ws/src
+git clone https://github.com/orbbec/ros_astra_camera
+roscd astra_camera
+./scripts/create_udev_rules
+cd ~/catkin_ws
+catkin_make --pkg astra_camera
+roslaunch astra_camera astra.launch
+```
+
+```
+sudo apt-get install ros-melodic-freenect-*
+git clone https://github.com/avin2/SensorKinect.git
+sudo ./install.sh 
+roslaunch mrobot_bringup freenect.launch 
+```
+
+##### 21、安装evo
+
+```
+git clone https://github.com/MichaelGrupp/evo
+cd evo
+pip install --editable . --upgrade --no-binary evo
+测试
+cd test/data
+evo_traj kitti KITTI_00_ORB.txt KITTI_00_SPTAM.txt --ref=KITTI_00_gt.txt -p --plot_mode=xz
+然后出现ModuleNotFoundError: No module named 'tkinter'
+sudo apt-get install python3-tk
+```
+
+##### 22、安装sophus
+
+```
+git clone https://github.com/strasdat/Sophus.git
+cd Sophus && mkdir build && cd build && cmake .. && sudo make install
+```
+
+##### 23、安装pangolin
+
+```
+sudo apt-get install libglew-dev
+sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev
+sudo apt-get install libpython2.7-dev
+git clone https://github.com.cnpmjs.org/stevenlovegrove/Pangolin.git
+cd Pangolin && mkdir build && cd build && cmake .. && cmake --build . && sudo make install
+```
+
+##### 24、安装ceres
+
+```
+sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3 libgflags-dev libgoogle-glog-dev libgtest-dev
+git clone https://github.com/ceres-solver/ceres-solver
+cd ceres-solver && mkdir build && cd build && cmake .. && make  && sudo make install
+```
+
+##### 25、安装g2o
+
+```
+sudo apt install qt5-qmake qt5-default libqglviewer-dev-qt5 libsuitesparse-dev libcxsparse3 libcholmod3
+cd g2o && mkdir build && cd build && cmake .. && make  && sudo make install
+```
 
 
 
