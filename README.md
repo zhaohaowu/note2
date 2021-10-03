@@ -170,6 +170,9 @@ rosrun map_server map_saver -f ~/maps/housemap/housemap
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/zhw/maps/housemap/housemap.yaml #/home/zhw这里必须用绝对路径不能用~
 ```
+##### 20、安装显卡驱动
+
+https://blog.csdn.net/zhaohaowu/article/details/114284288
 
 
 
