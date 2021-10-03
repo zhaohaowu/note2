@@ -33,6 +33,10 @@ https://www.google.com/chrome/
 ##### 5、安装输入法，重启后生效
 
 https://pinyin.sogou.com/linux/
+```
+gedit ~/.config/sogoupinyin/conf/env.ini
+```
+将StatusAppearance设置为StatusAppearance=0
 
 
 ##### 6、gedit永久显示行号，tab键宽度设置为4和安装粘贴板，安装录屏，截图工具
