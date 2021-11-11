@@ -178,6 +178,26 @@ Resource not found: usb_cam
 sudo apt install ros-melodic-usb-cam
 ```
 
+##### 16、安装qt
+
+https://download.qt.io/archive/qt/5.9/5.9.9/
+
+```
+sudo nano /usr/bin/qtcreator
+```
+```
+#!/bin/sh
+export qt_home=/home/zhw/3rdparty/qt5.9.9/Tools/QtCreator/bin
+$qt_home/qtcreator $*
+```
+```
+sudo apt install ros-melodic-qt-create
+sudo apt install ros-melodic-qt-build
+```
+```
+catkin_create_qt_pkg 功能包名 依赖1 依赖2
+```
+
 ##### 17、安装vscode
 
 https://code.visualstudio.com/download
