@@ -115,12 +115,22 @@ aruco代码只需要完成9，10，11，12就可以编译
 
 问题
 ```
-  Could not find a package configuration file provided by "move_base_msgs"
+ Could not find a package configuration file provided by "move_base_msgs"
 ```
 解决方法
 ```
 sudo apt-get install ros-melodic-navigation
 ```
+
+问题
+```
+ERROR: cannot launch node of type [gmapping/slam_gmapping]: gmapping
+```
+解决方法
+```
+sudo apt-get install ros-melodic-slam-gmapping
+```
+
 ##### 16、解决carlike_robot_sim代码bug
 
 代码：https://blog.csdn.net/qq_36754438/article/details/109125320
