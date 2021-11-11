@@ -160,6 +160,14 @@ https://sourceforge.net/projects/geographiclib/
 ```
 mkdir build&&cd build&&cmake ..&&sudo make install
 ```
+##### 16、解决carto代码bug
+问题
+```
+  Could not find a package configuration file provided by "cartographer" 
+```
+解决方法
+https://blog.csdn.net/zhaohaowu/article/details/120843183
+
 ##### 17、安装vscode
 
 https://code.visualstudio.com/download
