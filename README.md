@@ -168,6 +168,16 @@ mkdir build&&cd build&&cmake ..&&sudo make install
 解决方法
 https://blog.csdn.net/zhaohaowu/article/details/120843183
 
+##### 16、解决aruco_test代码bug
+问题
+```
+Resource not found: usb_cam
+```
+解决方法
+```
+sudo apt install ros-melodic-usb-cam
+```
+
 ##### 17、安装vscode
 
 https://code.visualstudio.com/download
