@@ -121,7 +121,7 @@ aruco代码只需要完成9，10，11，12就可以编译
 ```
 sudo apt-get install ros-melodic-navigation
 ```
-##### 17、解决carlike_robot_sim代码bug
+##### 16、解决carlike_robot_sim代码bug
 
 代码：https://blog.csdn.net/qq_36754438/article/details/109125320
 
@@ -140,6 +140,25 @@ package 'orocos-bfl' not found
 解决方法
 ```
 sudo apt-get install ros-melodic-bfl
+```
+##### 16、解决gps转odom代码bug
+
+问题
+```
+Could not find a package configuration file provided by "serial" 
+```
+解决方法
+```
+sudo apt install ros-melodic-serial
+```
+问题
+```
+  Could not find a package configuration file provided by "GeographicLib"
+```
+解决方法
+https://sourceforge.net/projects/geographiclib/
+```
+mkdir build&&cd build&&cmake ..&&sudo make install
 ```
 ##### 17、安装vscode
 
