@@ -188,6 +188,26 @@ Resource not found: usb_cam
 sudo apt install ros-melodic-usb-cam
 ```
 
+##### 16、解决lvi sam代码bug
+
+问题
+```
+error while loading shared libraries: libmetis.so: cannot open shared object file: No such file or directory
+```
+解决方法
+```
+sudo cp /usr/local/lib/libmetis.so /usr/lib
+```
+
+##### 16、安装gtsam
+
+https://github.com/borglab/gtsam/archive/4.0.2.zip
+
+```
+cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF ..
+sudo make install -
+```
+
 ##### 16、安装qt
 
 https://download.qt.io/archive/qt/5.9/5.9.9/
