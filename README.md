@@ -131,6 +131,15 @@ ERROR: cannot launch node of type [gmapping/slam_gmapping]: gmapping
 sudo apt-get install ros-melodic-slam-gmapping
 ```
 
+问题
+```
+Could not find the GUI, install the 'joint_state_publisher_gui' package
+```
+解决方法
+```
+sudo apt-get install ros-melodic-joint-state-publisher-gui
+```
+
 ##### 16、解决carlike_robot_sim代码bug
 
 代码：https://blog.csdn.net/qq_36754438/article/details/109125320
