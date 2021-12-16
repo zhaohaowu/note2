@@ -347,6 +347,7 @@ cd ceres-solver && mkdir build && cd build && cmake .. && make  && sudo make ins
 
 ```
 sudo apt install qt5-qmake qt5-default libqglviewer-dev-qt5 libsuitesparse-dev libcxsparse3 libcholmod3
+git clone https://github.com/RainerKuemmerle/g2o
 cd g2o && mkdir build && cd build && cmake .. && make  && sudo make install
 ```
 ##### 26、安装turtlebot3
