@@ -409,7 +409,7 @@ Resource not found: usb_cam
 sudo apt install ros-melodic-usb-cam
 ```
 
-##### 解决安装gazebo9的bug
+##### 解决lvi sam代码bug
 
 问题
 
@@ -423,7 +423,7 @@ error while loading shared libraries: libmetis.so: cannot open shared object fil
 sudo cp /usr/local/lib/libmetis.so /usr/lib
 ```
 
-##### 解决lvi sam代码bug
+##### 解决安装gazebo9的bug
 
 问题
 
