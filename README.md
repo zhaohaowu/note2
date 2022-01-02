@@ -437,5 +437,20 @@ gzclient: symbol lookup error: /usr/lib/x86_64-linux-gnu/libgazebo_common.so.9: 
 ```
 sudo apt upgrade libignition-math2
 ```
+**解决nav_qt代码bug**
 
+问题
+
+```
+[gazebo-1] process has died
+```
+
+解决方法
+
+```
+killall gzserver
+killall gzclient
+```
+
+或者top显示进程，第一列为pid编号，sudo kill pid编号 
 
