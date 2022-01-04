@@ -288,8 +288,16 @@ rosrun map_server map_saver -f ~/maps/housemap/housemap
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/zhw/maps/housemap/housemap.yaml #/home/zhw这里必须用绝对路径不能用~
 ```
+##### 25、安装pycharm
+https://www.jetbrains.com/pycharm/download/#section=linux
 
-##### 25、代码bug解决
+下载社区版
+
+在bin文件夹下进入终端运行./pycharm.sh
+
+打开pycharm后，点击Tools -> Create Desktop Entry，就可以添加到收藏夹
+
+##### 26、代码bug解决
 
 **melodic代码解决bug**
 
