@@ -297,7 +297,15 @@ https://www.jetbrains.com/pycharm/download/#section=linux
 
 打开pycharm后，点击Tools -> Create Desktop Entry，就可以添加到收藏夹
 
-##### 26、代码bug解决
+##### 26、安装pytorch GPU版 cuda10.0
+
+在pycharm的虚拟环境下
+
+```
+pip3 install torch==1.2.0 torchvision==0.4.0
+```
+
+##### 27、代码bug解决
 
 **melodic代码解决bug**
 
