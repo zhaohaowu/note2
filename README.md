@@ -257,6 +257,37 @@ ctrl + ,打开设置，搜索font family，将原内容修改为'monospace'
 
 https://blog.csdn.net/weixin_44623637/article/details/109249607
 
+**24、安装protobuf各个版本
+```
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.14.0/protobuf-cpp-3.14.0.zip
+unzip protobuf-cpp-3.14.0.zip
+cd protobuf-3.14.0
+./autogen.sh
+./configure
+make
+sudo make install
+sudo ldconfig
+```
+```
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.4.0/protobuf-cpp-3.4.0.zip
+unzip protobuf-cpp-3.4.0.zip
+cd protobuf-3.4.0
+./autogen.sh
+./configure
+make
+sudo make install
+sudo ldconfig
+```
+```
+wget https://github.com/protocolbuffers/protobuf/releases/download/v3.0.0/protobuf-cpp-3.0.0.zip
+unzip protobuf-cpp-3.0.0.zip
+cd protobuf-3.0.0
+./autogen.sh
+./configure
+make
+sudo make install
+sudo ldconfig
+```
 **24、安装turtlebot3仿真**
 
 安装turtlebot3的ros包
