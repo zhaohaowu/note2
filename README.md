@@ -267,17 +267,9 @@ cd protobuf-3.14.0
 make
 sudo make install
 sudo ldconfig
+protoc --version
 ```
-```
-wget https://github.com/protocolbuffers/protobuf/releases/download/v3.4.0/protobuf-cpp-3.4.0.zip
-unzip protobuf-cpp-3.4.0.zip
-cd protobuf-3.4.0
-./autogen.sh
-./configure
-make
-sudo make install
-sudo ldconfig
-```
+
 ```
 wget https://github.com/protocolbuffers/protobuf/releases/download/v3.0.0/protobuf-cpp-3.0.0.zip
 unzip protobuf-cpp-3.0.0.zip
@@ -287,6 +279,7 @@ cd protobuf-3.0.0
 make
 sudo make install
 sudo ldconfig
+protoc --version
 ```
 **24、安装turtlebot3仿真**
 
